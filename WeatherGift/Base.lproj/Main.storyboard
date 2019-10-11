@@ -13,7 +13,7 @@
         <!--DetailVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="DetailVC" customModule="WeatherGift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="BYZ-38-t0r" customClass="DetailVC" customModule="WeatherGift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,6 +68,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="currentImage" destination="0aR-ri-Za8" id="Vgv-cu-6T6"/>
+                        <outlet property="dateLabel" destination="wWb-bX-aSc" id="iLE-Te-Nak"/>
+                        <outlet property="locationLabel" destination="hHc-dY-wLZ" id="X2x-9y-5Zu"/>
+                        <outlet property="summaryLabel" destination="9YG-p0-Gx4" id="46e-i4-mOf"/>
+                        <outlet property="temperatureLabel" destination="VeK-9u-8KF" id="2J1-28-SQW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,7 +83,7 @@
         <!--PageVC-->
         <scene sceneID="D3g-0e-rnE">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="zSY-i4-ybm" customClass="PageVC" customModule="WeatherGift" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="zSY-i4-ybm" customClass="PageVC" customModule="WeatherGift" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHT-Mu-1Or" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="161" y="-544"/>
