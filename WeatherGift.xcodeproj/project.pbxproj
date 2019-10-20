@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4AD6F7D117A039D90FD628CF /* Pods_WeatherGift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7582BAA9D7580D7E5DC65E30 /* Pods_WeatherGift.framework */; };
+		AE0CFF8B235D123B00F2DF2E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0CFF8A235D123B00F2DF2E /* Constants.swift */; };
 		AE72C5CE235BB45E0097293C /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72C5CD235BB45E0097293C /* WeatherLocation.swift */; };
 		AE72C5D0235BBB710097293C /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72C5CF235BBB710097293C /* PageVC.swift */; };
 		AE72C5D2235BBC7B0097293C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72C5D1235BBC7B0097293C /* DetailVC.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		7582BAA9D7580D7E5DC65E30 /* Pods_WeatherGift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherGift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7F9F4DD1F79CEF5E9ED3E3 /* Pods-WeatherGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.debug.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0CFF8A235D123B00F2DF2E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AE72C5CD235BB45E0097293C /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
 		AE72C5CF235BBB710097293C /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = SOURCE_ROOT; };
 		AE72C5D1235BBC7B0097293C /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				AE72C5D5235BBCF10097293C /* AppDelegate.swift */,
 				AE72C5CD235BB45E0097293C /* WeatherLocation.swift */,
 				AE72C5CF235BBB710097293C /* PageVC.swift */,
+				AE0CFF8A235D123B00F2DF2E /* Constants.swift */,
 				AE72C5D1235BBC7B0097293C /* DetailVC.swift */,
 				AE72C5D3235BBCBA0097293C /* ListVC.swift */,
 				AEB91B85234FD4C10029C95C /* Main.storyboard */,
@@ -235,6 +238,7 @@
 				AE72C5D2235BBC7B0097293C /* DetailVC.swift in Sources */,
 				AE72C5CE235BB45E0097293C /* WeatherLocation.swift in Sources */,
 				AE72C5D0235BBB710097293C /* PageVC.swift in Sources */,
+				AE0CFF8B235D123B00F2DF2E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
